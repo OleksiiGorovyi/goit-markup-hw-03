@@ -162,7 +162,7 @@ gap: 50px;
 /* -------Hero--------- */
 
 .hero-section {
-        padding: 200px 452px;
+        padding: 200px;
         margin: auto;
         background: var(--secondary-bg-color);
         text-align: center;
@@ -214,6 +214,10 @@ gap: 50px;
 
 /* ----------Values------------ */
 
+.values {
+        padding-bottom: 0;
+}
+
 .values-list {
         display: flex;
         gap: 30px;
@@ -240,6 +244,7 @@ gap: 50px;
 }
 
 /* ------------work---------------- */
+
 
 .work-title {
         margin-bottom: 50px;
@@ -278,6 +283,11 @@ gap: 30px;
                 gap: 30px;
 }
 
+.team-item {
+        background-color: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+                border-radius: 0px 0px 4px 4px;
+}
 
 
 .team-name {
@@ -308,7 +318,9 @@ gap: 30px;
         margin-top: 0;
 }
 
+
 .portfolio-title {
+        margin-bottom: 4px;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -318,6 +330,8 @@ gap: 30px;
 
 .filter-item {
         gap: 8px;
+
+
 }
     
 
@@ -340,10 +354,12 @@ gap: 30px;
 }
 
 .filter-list {
+        gap: 8px;
         margin-bottom: 50px;
                 justify-content: center;
                 display: flex;
                 align-items: center;
+                border: none;
 }
 
 .btn:hover,
@@ -368,6 +384,7 @@ gap: 30px;
 
 .portfolio-library {
         padding: 20px 24px;
+        border: 1px solid #EEEEEE;
 }
 
 
@@ -381,6 +398,7 @@ gap: 30px;
 }
 
 .footer-logo {
+        padding: 0;
         margin-bottom: 20px;
         margin-right: 0;
 }
